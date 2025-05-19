@@ -1,0 +1,32 @@
+[0.059s] Invoking command in '/home/ram/Documents/ros2/build/lego_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram/Documents/ros2/src/lego_description -DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ros2/install/lego_description
+[0.511s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.105s] -- Configuring done
+[3.120s] -- Generating done
+[3.129s] -- Build files have been written to: /home/ram/Documents/ros2/build/lego_description
+[3.138s] Invoked command in '/home/ram/Documents/ros2/build/lego_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram/Documents/ros2/src/lego_description -DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ros2/install/lego_description
+[3.142s] Invoking command in '/home/ram/Documents/ros2/build/lego_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram/Documents/ros2/build/lego_description -- -j4 -l4
+[3.282s] Invoked command in '/home/ram/Documents/ros2/build/lego_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram/Documents/ros2/build/lego_description -- -j4 -l4
+[3.302s] Invoking command in '/home/ram/Documents/ros2/build/lego_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram/Documents/ros2/build/lego_description
+[3.326s] -- Install configuration: ""
+[3.326s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf
+[3.326s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf/lego_brick_macros.xacro
+[3.327s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf/lego_scene.xacro
+[3.327s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf/robot_with_lego.xacro
+[3.335s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/meshes
+[3.339s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/ament_index/resource_index/package_run_dependencies/lego_description
+[3.341s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/ament_index/resource_index/parent_prefix_path/lego_description
+[3.355s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/ament_prefix_path.sh
+[3.355s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/ament_prefix_path.dsv
+[3.356s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/path.sh
+[3.356s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/path.dsv
+[3.356s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.bash
+[3.356s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.sh
+[3.357s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.zsh
+[3.357s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.dsv
+[3.362s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/package.dsv
+[3.363s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/ament_index/resource_index/packages/lego_description
+[3.363s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/cmake/lego_descriptionConfig.cmake
+[3.363s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/cmake/lego_descriptionConfig-version.cmake
+[3.373s] -- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/package.xml
+[3.376s] Invoked command in '/home/ram/Documents/ros2/build/lego_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram/Documents/ros2/build/lego_description

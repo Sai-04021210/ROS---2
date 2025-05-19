@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.001068] (-) JobUnselected: {'identifier': 'basic_description'}
+[0.001667] (-) JobUnselected: {'identifier': 'basic_py_examples'}
+[0.002059] (lego_description) JobQueued: {'identifier': 'lego_description', 'dependencies': OrderedDict()}
+[0.002400] (lego_manipulation) JobQueued: {'identifier': 'lego_manipulation', 'dependencies': OrderedDict()}
+[0.002860] (lego_description) JobStarted: {'identifier': 'lego_description'}
+[0.099584] (-) TimerEvent: {}
+[0.112537] (lego_manipulation) JobStarted: {'identifier': 'lego_manipulation'}
+[0.190174] (lego_description) JobProgress: {'identifier': 'lego_description', 'progress': 'cmake'}
+[0.192050] (lego_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ram/Documents/ros2/src/lego_description', '-DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ros2/install/lego_description'], 'cwd': '/home/ram/Documents/ros2/build/lego_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram'), ('SSH_CLIENT', '100.97.168.58 53503 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('LESS', '-FX'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ram'), ('OLDPWD', '/home/ram/Documents/ros2'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bed6e54f-d891-4a45-a5a7-e2270c262395.sock'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'ram'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '214'), ('PATH', '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ram/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c555b92a85.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/ram/Documents/ros2/build/lego_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.97.168.58 53503 100.112.190.127 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.199509] (-) TimerEvent: {}
+[0.300214] (-) TimerEvent: {}
+[0.406675] (-) TimerEvent: {}
+[0.507232] (-) TimerEvent: {}
+[0.608558] (-) TimerEvent: {}
+[0.709212] (-) TimerEvent: {}
+[0.810318] (-) TimerEvent: {}
+[0.910844] (-) TimerEvent: {}
+[1.011387] (-) TimerEvent: {}
+[1.111998] (-) TimerEvent: {}
+[1.212582] (-) TimerEvent: {}
+[1.313407] (-) TimerEvent: {}
+[1.419574] (-) TimerEvent: {}
+[1.520626] (-) TimerEvent: {}
+[1.622509] (-) TimerEvent: {}
+[1.723026] (-) TimerEvent: {}
+[1.823610] (-) TimerEvent: {}
+[1.926642] (-) TimerEvent: {}
+[2.027348] (-) TimerEvent: {}
+[2.128036] (-) TimerEvent: {}
+[2.228594] (-) TimerEvent: {}
+[2.329764] (-) TimerEvent: {}
+[2.430404] (-) TimerEvent: {}
+[2.531799] (-) TimerEvent: {}
+[2.633186] (-) TimerEvent: {}
+[2.734125] (-) TimerEvent: {}
+[2.834752] (-) TimerEvent: {}
+[2.935230] (-) TimerEvent: {}
+[3.035767] (-) TimerEvent: {}
+[3.136316] (-) TimerEvent: {}
+[3.237185] (-) TimerEvent: {}
+[3.338246] (-) TimerEvent: {}
+[3.438844] (-) TimerEvent: {}
+[3.539319] (-) TimerEvent: {}
+[3.639969] (-) TimerEvent: {}
+[3.740456] (-) TimerEvent: {}
+[3.840909] (-) TimerEvent: {}
+[3.941499] (-) TimerEvent: {}
+[4.042573] (-) TimerEvent: {}
+[4.143360] (-) TimerEvent: {}
+[4.243874] (-) TimerEvent: {}
+[4.344327] (-) TimerEvent: {}
+[4.444808] (-) TimerEvent: {}
+[4.545355] (-) TimerEvent: {}
+[4.645910] (-) TimerEvent: {}
+[4.746456] (-) TimerEvent: {}
+[4.847076] (-) TimerEvent: {}
+[4.947541] (-) TimerEvent: {}
+[5.048227] (-) TimerEvent: {}
+[5.148800] (-) TimerEvent: {}
+[5.249816] (-) TimerEvent: {}
+[5.350300] (-) TimerEvent: {}
+[5.450790] (-) TimerEvent: {}
+[5.551274] (-) TimerEvent: {}
+[5.651716] (-) TimerEvent: {}
+[5.752297] (-) TimerEvent: {}
+[5.853073] (-) TimerEvent: {}
+[5.951448] (lego_manipulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lego_manipulation', 'build', '--build-base', '/home/ram/Documents/ros2/build/lego_manipulation/build', 'install', '--record', '/home/ram/Documents/ros2/build/lego_manipulation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ram/Documents/ros2/src/lego_manipulation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ram', 'SSH_CLIENT': '100.97.168.58 53503 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'BROWSER': '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'LESS': '-FX', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ram', 'OLDPWD': '/home/ram/Documents/ros2', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-bed6e54f-d891-4a45-a5a7-e2270c262395.sock', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LOGNAME': 'ram', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '214', 'PATH': '/home/ram/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ram/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c555b92a85.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/ram/Documents/ros2/build/lego_manipulation', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.97.168.58 53503 100.112.190.127 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/ram/Documents/ros2/build/lego_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages:'}, 'shell': False}
+[5.958022] (-) TimerEvent: {}
+[6.058447] (-) TimerEvent: {}
+[6.158950] (-) TimerEvent: {}
+[6.260580] (-) TimerEvent: {}
+[6.361080] (-) TimerEvent: {}
+[6.461736] (-) TimerEvent: {}
+[6.505655] (lego_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.511846] (lego_manipulation) StdoutLine: {'line': b'running egg_info\n'}
+[6.516305] (lego_manipulation) StdoutLine: {'line': b'creating ../../build/lego_manipulation/lego_manipulation.egg-info\n'}
+[6.517918] (lego_manipulation) StdoutLine: {'line': b'writing ../../build/lego_manipulation/lego_manipulation.egg-info/PKG-INFO\n'}
+[6.518331] (lego_manipulation) StdoutLine: {'line': b'writing dependency_links to ../../build/lego_manipulation/lego_manipulation.egg-info/dependency_links.txt\n'}
+[6.521953] (lego_manipulation) StdoutLine: {'line': b'writing entry points to ../../build/lego_manipulation/lego_manipulation.egg-info/entry_points.txt\n'}
+[6.522436] (lego_manipulation) StdoutLine: {'line': b'writing requirements to ../../build/lego_manipulation/lego_manipulation.egg-info/requires.txt\n'}
+[6.522729] (lego_manipulation) StdoutLine: {'line': b'writing top-level names to ../../build/lego_manipulation/lego_manipulation.egg-info/top_level.txt\n'}
+[6.522947] (lego_manipulation) StdoutLine: {'line': b"writing manifest file '../../build/lego_manipulation/lego_manipulation.egg-info/SOURCES.txt'\n"}
+[6.534872] (lego_manipulation) StdoutLine: {'line': b"reading manifest file '../../build/lego_manipulation/lego_manipulation.egg-info/SOURCES.txt'\n"}
+[6.539242] (lego_manipulation) StdoutLine: {'line': b"writing manifest file '../../build/lego_manipulation/lego_manipulation.egg-info/SOURCES.txt'\n"}
+[6.540833] (lego_manipulation) StdoutLine: {'line': b'running build\n'}
+[6.541258] (lego_manipulation) StdoutLine: {'line': b'running build_py\n'}
+[6.541677] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/build/lego_manipulation/build\n'}
+[6.541929] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/build/lego_manipulation/build/lib\n'}
+[6.542746] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation\n'}
+[6.543657] (lego_manipulation) StdoutLine: {'line': b'copying lego_manipulation/__init__.py -> /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation\n'}
+[6.544038] (lego_manipulation) StdoutLine: {'line': b'copying lego_manipulation/lego_pick_place.py -> /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation\n'}
+[6.545477] (lego_manipulation) StdoutLine: {'line': b'copying lego_manipulation/joint_controller.py -> /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation\n'}
+[6.545982] (lego_manipulation) StdoutLine: {'line': b'running install\n'}
+[6.547331] (lego_manipulation) StdoutLine: {'line': b'running install_lib\n'}
+[6.549781] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation\n'}
+[6.550366] (lego_manipulation) StdoutLine: {'line': b'copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/__init__.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation\n'}
+[6.550898] (lego_manipulation) StdoutLine: {'line': b'copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/lego_pick_place.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation\n'}
+[6.551275] (lego_manipulation) StdoutLine: {'line': b'copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/joint_controller.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation\n'}
+[6.552209] (lego_manipulation) StdoutLine: {'line': b'byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/__init__.py to __init__.cpython-310.pyc\n'}
+[6.553301] (lego_manipulation) StdoutLine: {'line': b'byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/lego_pick_place.py to lego_pick_place.cpython-310.pyc\n'}
+[6.557664] (lego_manipulation) StdoutLine: {'line': b'byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/joint_controller.py to joint_controller.cpython-310.pyc\n'}
+[6.559552] (lego_manipulation) StdoutLine: {'line': b'running install_data\n'}
+[6.560257] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/install/lego_manipulation/share/ament_index\n'}
+[6.561519] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/install/lego_manipulation/share/ament_index/resource_index\n'}
+[6.561910] (-) TimerEvent: {}
+[6.562246] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/install/lego_manipulation/share/ament_index/resource_index/packages\n'}
+[6.572822] (lego_manipulation) StdoutLine: {'line': b'copying resource/lego_manipulation -> /home/ram/Documents/ros2/install/lego_manipulation/share/ament_index/resource_index/packages\n'}
+[6.573364] (lego_manipulation) StdoutLine: {'line': b'copying package.xml -> /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation\n'}
+[6.576698] (lego_manipulation) StdoutLine: {'line': b'creating /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation/launch\n'}
+[6.579607] (lego_manipulation) StdoutLine: {'line': b'copying launch/lego_demo.launch.py -> /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation/launch\n'}
+[6.580058] (lego_manipulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.580322] (lego_manipulation) StdoutLine: {'line': b'Copying ../../build/lego_manipulation/lego_manipulation.egg-info to /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation-0.0.0-py3.10.egg-info\n'}
+[6.582366] (lego_manipulation) StdoutLine: {'line': b'running install_scripts\n'}
+[6.636531] (lego_manipulation) StdoutLine: {'line': b'Installing joint_controller script to /home/ram/Documents/ros2/install/lego_manipulation/bin\n'}
+[6.662046] (-) TimerEvent: {}
+[6.689284] (lego_manipulation) StdoutLine: {'line': b'Installing lego_pick_place script to /home/ram/Documents/ros2/install/lego_manipulation/bin\n'}
+[6.691936] (lego_manipulation) StdoutLine: {'line': b"writing list of installed files to '/home/ram/Documents/ros2/build/lego_manipulation/install.log'\n"}
+[6.748300] (lego_manipulation) CommandEnded: {'returncode': 0}
+[6.762319] (-) TimerEvent: {}
+[6.863035] (-) TimerEvent: {}
+[6.963600] (-) TimerEvent: {}
+[7.064305] (-) TimerEvent: {}
+[7.166129] (-) TimerEvent: {}
+[7.195902] (lego_manipulation) JobEnded: {'identifier': 'lego_manipulation', 'rc': 0}
+[7.266736] (-) TimerEvent: {}
+[7.367995] (-) TimerEvent: {}
+[7.468621] (-) TimerEvent: {}
+[7.569581] (-) TimerEvent: {}
+[7.670183] (-) TimerEvent: {}
+[7.771237] (-) TimerEvent: {}
+[7.872011] (-) TimerEvent: {}
+[7.973087] (-) TimerEvent: {}
+[8.073889] (-) TimerEvent: {}
+[8.173227] (lego_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.174280] (-) TimerEvent: {}
+[8.274783] (-) TimerEvent: {}
+[8.375366] (-) TimerEvent: {}
+[8.476135] (-) TimerEvent: {}
+[8.574792] (lego_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.577293] (-) TimerEvent: {}
+[8.677819] (-) TimerEvent: {}
+[8.780172] (-) TimerEvent: {}
+[8.880773] (-) TimerEvent: {}
+[8.981650] (-) TimerEvent: {}
+[9.076212] (lego_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.081766] (-) TimerEvent: {}
+[9.098276] (lego_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.133566] (lego_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.181896] (-) TimerEvent: {}
+[9.192930] (lego_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.282007] (-) TimerEvent: {}
+[9.359738] (lego_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.384534] (-) TimerEvent: {}
+[9.485204] (-) TimerEvent: {}
+[9.588530] (-) TimerEvent: {}
+[9.690579] (-) TimerEvent: {}
+[9.794235] (-) TimerEvent: {}
+[9.797648] (lego_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.843436] (lego_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.844249] (lego_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.845656] (lego_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.894579] (-) TimerEvent: {}
+[9.995310] (-) TimerEvent: {}
+[10.095804] (-) TimerEvent: {}
+[10.196339] (-) TimerEvent: {}
+[10.296794] (-) TimerEvent: {}
+[10.393375] (lego_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[10.393952] (lego_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[10.394937] (lego_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[10.395240] (lego_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[10.395505] (lego_description) StderrLine: {'line': b'\n'}
+[10.395752] (lego_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[10.395978] (lego_description) StderrLine: {'line': b'  any of the following names:\n'}
+[10.396192] (lego_description) StderrLine: {'line': b'\n'}
+[10.396405] (lego_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[10.396652] (lego_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[10.396855] (-) TimerEvent: {}
+[10.397220] (lego_description) StderrLine: {'line': b'\n'}
+[10.397818] (lego_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[10.398081] (lego_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[10.398303] (lego_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[10.398543] (lego_description) StderrLine: {'line': b'  has been installed.\n'}
+[10.398761] (lego_description) StderrLine: {'line': b'\n'}
+[10.398967] (lego_description) StderrLine: {'line': b'\x1b[0m\n'}
+[10.399169] (lego_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.399391] (lego_description) StdoutLine: {'line': b'See also "/home/ram/Documents/ros2/build/lego_description/CMakeFiles/CMakeOutput.log".\n'}
+[10.406589] (lego_description) CommandEnded: {'returncode': 1}
+[10.445154] (lego_description) JobEnded: {'identifier': 'lego_description', 'rc': 1}
+[10.456264] (-) EventReactorShutdown: {}

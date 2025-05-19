@@ -1,0 +1,46 @@
+[2.441s] Invoking command in '/home/ram/Documents/ros2/build/lego_manipulation': PYTHONPATH=/home/ram/Documents/ros2/build/lego_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ram/Documents/ros2/build/lego_manipulation/build
+[3.128s] running develop
+[3.541s] Removing /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego-manipulation.egg-link (link to .)
+[3.611s] Invoked command in '/home/ram/Documents/ros2/build/lego_manipulation' returned '0': PYTHONPATH=/home/ram/Documents/ros2/build/lego_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ram/Documents/ros2/build/lego_manipulation/build
+[3.613s] Invoking command in '/home/ram/Documents/ros2/src/lego_manipulation': PYTHONPATH=/home/ram/Documents/ros2/build/lego_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lego_manipulation build --build-base /home/ram/Documents/ros2/build/lego_manipulation/build install --record /home/ram/Documents/ros2/build/lego_manipulation/install.log --single-version-externally-managed install_data --force
+[4.074s] running egg_info
+[4.077s] writing ../../build/lego_manipulation/lego_manipulation.egg-info/PKG-INFO
+[4.079s] writing dependency_links to ../../build/lego_manipulation/lego_manipulation.egg-info/dependency_links.txt
+[4.079s] writing entry points to ../../build/lego_manipulation/lego_manipulation.egg-info/entry_points.txt
+[4.080s] writing requirements to ../../build/lego_manipulation/lego_manipulation.egg-info/requires.txt
+[4.080s] writing top-level names to ../../build/lego_manipulation/lego_manipulation.egg-info/top_level.txt
+[4.083s] reading manifest file '../../build/lego_manipulation/lego_manipulation.egg-info/SOURCES.txt'
+[4.086s] writing manifest file '../../build/lego_manipulation/lego_manipulation.egg-info/SOURCES.txt'
+[4.087s] running build
+[4.087s] running build_py
+[4.088s] copying lego_manipulation/visualize_lego.py -> /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation
+[4.088s] copying lego_manipulation/lego_pick_place.py -> /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation
+[4.088s] copying lego_manipulation/run_demo.py -> /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation
+[4.089s] running install
+[4.089s] running install_lib
+[4.091s] creating /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation
+[4.092s] copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/__init__.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation
+[4.094s] copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/visualize_lego.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation
+[4.094s] copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/lego_pick_place.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation
+[4.095s] copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/joint_controller.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation
+[4.096s] copying /home/ram/Documents/ros2/build/lego_manipulation/build/lib/lego_manipulation/run_demo.py -> /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation
+[4.099s] byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/__init__.py to __init__.cpython-310.pyc
+[4.100s] byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/visualize_lego.py to visualize_lego.cpython-310.pyc
+[4.100s] byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/lego_pick_place.py to lego_pick_place.cpython-310.pyc
+[4.103s] byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/joint_controller.py to joint_controller.cpython-310.pyc
+[4.105s] byte-compiling /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation/run_demo.py to run_demo.cpython-310.pyc
+[4.107s] running install_data
+[4.107s] copying resource/lego_manipulation -> /home/ram/Documents/ros2/install/lego_manipulation/share/ament_index/resource_index/packages
+[4.109s] copying package.xml -> /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation
+[4.110s] copying launch/lego_demo.launch.py -> /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation/launch
+[4.110s] copying launch/visualize_lego.launch.py -> /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation/launch
+[4.110s] copying rviz/lego_demo.rviz -> /home/ram/Documents/ros2/install/lego_manipulation/share/lego_manipulation/rviz
+[4.111s] running install_egg_info
+[4.116s] Copying ../../build/lego_manipulation/lego_manipulation.egg-info to /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego_manipulation-0.0.0-py3.10.egg-info
+[4.116s] running install_scripts
+[4.175s] Installing joint_controller script to /home/ram/Documents/ros2/install/lego_manipulation/bin
+[4.176s] Installing lego_pick_place script to /home/ram/Documents/ros2/install/lego_manipulation/bin
+[4.176s] Installing run_demo script to /home/ram/Documents/ros2/install/lego_manipulation/bin
+[4.177s] Installing visualize_lego script to /home/ram/Documents/ros2/install/lego_manipulation/bin
+[4.177s] writing list of installed files to '/home/ram/Documents/ros2/build/lego_manipulation/install.log'
+[4.232s] Invoked command in '/home/ram/Documents/ros2/src/lego_manipulation' returned '0': PYTHONPATH=/home/ram/Documents/ros2/build/lego_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lego_manipulation build --build-base /home/ram/Documents/ros2/build/lego_manipulation/build install --record /home/ram/Documents/ros2/build/lego_manipulation/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,4 @@
+Invoking command in '/home/ram/Documents/ros2/build/lego_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram/Documents/ros2/build/lego_description -- -j4 -l4
+Invoked command in '/home/ram/Documents/ros2/build/lego_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram/Documents/ros2/build/lego_description -- -j4 -l4
+Invoking command in '/home/ram/Documents/ros2/build/lego_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram/Documents/ros2/build/lego_description
+Invoked command in '/home/ram/Documents/ros2/build/lego_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram/Documents/ros2/build/lego_description

@@ -1,0 +1,26 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ram/Documents/ros2/build/lego_description
+-- Install configuration: ""
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf/lego_brick_macros.xacro
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf/lego_scene.xacro
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/urdf/robot_with_lego.xacro
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/meshes
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/ament_index/resource_index/package_run_dependencies/lego_description
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/ament_index/resource_index/parent_prefix_path/lego_description
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/ament_prefix_path.sh
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/path.sh
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/environment/path.dsv
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.bash
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.sh
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.zsh
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/local_setup.dsv
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/package.dsv
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/ament_index/resource_index/packages/lego_description
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/cmake/lego_descriptionConfig.cmake
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/cmake/lego_descriptionConfig-version.cmake
+-- Installing: /home/ram/Documents/ros2/install/lego_description/share/lego_description/package.xml

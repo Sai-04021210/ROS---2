@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing lego_manipulation.egg-info/PKG-INFO
+writing dependency_links to lego_manipulation.egg-info/dependency_links.txt
+writing entry points to lego_manipulation.egg-info/entry_points.txt
+writing requirements to lego_manipulation.egg-info/requires.txt
+writing top-level names to lego_manipulation.egg-info/top_level.txt
+reading manifest file 'lego_manipulation.egg-info/SOURCES.txt'
+writing manifest file 'lego_manipulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ram/Documents/ros2/install/lego_manipulation/lib/python3.10/site-packages/lego-manipulation.egg-link (link to .)
+Installing joint_controller script to /home/ram/Documents/ros2/install/lego_manipulation/bin
+Installing lego_pick_place script to /home/ram/Documents/ros2/install/lego_manipulation/bin
+
+Installed /home/ram/Documents/ros2/build/lego_manipulation
+running symlink_data

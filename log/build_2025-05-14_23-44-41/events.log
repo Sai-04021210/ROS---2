@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.000874] (basic_description) JobQueued: {'identifier': 'basic_description', 'dependencies': OrderedDict()}
+[0.001346] (basic_py_examples) JobQueued: {'identifier': 'basic_py_examples', 'dependencies': OrderedDict()}
+[0.001726] (basic_description) JobStarted: {'identifier': 'basic_description'}
+[0.009386] (basic_py_examples) JobStarted: {'identifier': 'basic_py_examples'}
+[0.020921] (basic_description) JobProgress: {'identifier': 'basic_description', 'progress': 'cmake'}
+[0.045282] (basic_description) JobProgress: {'identifier': 'basic_description', 'progress': 'build'}
+[0.046769] (basic_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram/Documents/ros2/build/basic_description', '--', '-j4', '-l4'], 'cwd': '/home/ram/Documents/ros2/build/basic_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ram'), ('SSH_CLIENT', '192.168.0.61 59102 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ram/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/ram/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ram'), ('OLDPWD', '/home/ram/Documents/ros2/src'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-600ba951-23d1-4954-b2c8-911413286050.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ram/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ram/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'ram'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '21'), ('PATH', '/home/ram/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ram/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1148fe1e33.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ram/Documents/ros2/build/basic_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.61 59102 192.168.0.198 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099221] (-) TimerEvent: {}
+[0.105992] (basic_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200156] (-) TimerEvent: {}
+[0.304506] (-) TimerEvent: {}
+[0.405108] (-) TimerEvent: {}
+[0.505728] (-) TimerEvent: {}
+[0.506421] (basic_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.506902] (basic_description) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.507228] (basic_description) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.507477] (basic_description) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.537222] (basic_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.538170] (basic_description) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.538540] (basic_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.538789] (basic_description) StderrLine: {'line': b'  /home/ram/Documents/ros2/build/basic_description/ament_cmake_package_templates/templates.cmake)\n'}
+[0.539060] (basic_description) StderrLine: {'line': b'  returned error code 1\n'}
+[0.539343] (basic_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.539722] (basic_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.540409] (basic_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.540787] (basic_description) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.541099] (basic_description) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.541398] (basic_description) StderrLine: {'line': b'\n'}
+[0.541642] (basic_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.541867] (basic_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.542224] (basic_description) StdoutLine: {'line': b'See also "/home/ram/Documents/ros2/build/basic_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.544619] (basic_description) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.589666] (basic_description) CommandEnded: {'returncode': 2}
+[0.605871] (-) TimerEvent: {}
+[0.630443] (basic_description) JobEnded: {'identifier': 'basic_description', 'rc': 2}
+[0.633566] (basic_py_examples) JobEnded: {'identifier': 'basic_py_examples', 'rc': 'SIGINT'}
+[0.639778] (-) EventReactorShutdown: {}
