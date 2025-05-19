@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'simple_publisher = basic_py_examples.simple_publisher:main',
             'simple_subscriber = basic_py_examples.simple_subscriber:main',
+            'parameters_demo = basic_py_examples.parameters:main',
         ],
     },
 )
