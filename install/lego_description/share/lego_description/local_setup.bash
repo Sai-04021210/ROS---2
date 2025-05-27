@@ -1,1 +1,0 @@
-/home/ram/Documents/ros2/build/lego_description/ament_cmake_environment_hooks/local_setup.bash

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ram/Documents/ros2/src/basic_description
+CMAKE_SOURCE_DIR = /home/ram/Documents/ROS---2/src/basic_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ram/Documents/ros2/build/basic_description
+CMAKE_BINARY_DIR = /home/ram/Documents/ROS---2/build/basic_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ram/Documents/ros2/build/basic_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ram/Documents/ros2/src/basic_description /home/ram/Documents/ros2/src/basic_description /home/ram/Documents/ros2/build/basic_description /home/ram/Documents/ros2/build/basic_description /home/ram/Documents/ros2/build/basic_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ram/Documents/ROS---2/build/basic_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ram/Documents/ROS---2/src/basic_description /home/ram/Documents/ROS---2/src/basic_description /home/ram/Documents/ROS---2/build/basic_description /home/ram/Documents/ROS---2/build/basic_description /home/ram/Documents/ROS---2/build/basic_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,4 +1,0 @@
-Invoking command in '/home/ram/Documents/ros2/build/basic_description': /usr/bin/cmake --build /home/ram/Documents/ros2/build/basic_description -- -j4 -l4
-Invoked command in '/home/ram/Documents/ros2/build/basic_description' returned '0': /usr/bin/cmake --build /home/ram/Documents/ros2/build/basic_description -- -j4 -l4
-Invoking command in '/home/ram/Documents/ros2/build/basic_description': /usr/bin/cmake --install /home/ram/Documents/ros2/build/basic_description
-Invoked command in '/home/ram/Documents/ros2/build/basic_description' returned '0': /usr/bin/cmake --install /home/ram/Documents/ros2/build/basic_description

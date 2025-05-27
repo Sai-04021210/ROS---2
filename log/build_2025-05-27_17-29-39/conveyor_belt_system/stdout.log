@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ram/Documents/ROS---2/build/conveyor_belt_system
+-- Install configuration: ""
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/robot_gazebo.xacro
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/robot_with_conveyor.xacro
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/conveyor_belt.xacro
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/gazebo_simulation.launch.py
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_only_test.launch.py
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_conveyor_demo.launch.py
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/simple_robot_test.launch.py
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz/robot_conveyor.rviz
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/config
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/config/robot_controllers.yaml
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/package_run_dependencies/conveyor_belt_system
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/parent_prefix_path/conveyor_belt_system
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.sh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.sh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.dsv
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.bash
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.sh
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.zsh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.dsv
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.dsv
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/packages/conveyor_belt_system
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig.cmake
+-- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig-version.cmake
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.xml

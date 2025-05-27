@@ -1,0 +1,3 @@
+[console_scripts]
+robot_controller = conveyor_manipulation.robot_controller:main
+

@@ -1,0 +1,44 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+      
+    joint_group_position_controller:
+      type: position_controllers/JointGroupPositionController
+
+joint_group_position_controller:
+  ros__parameters:
+    joints:
+      - baseplate_joint
+      - forward_drivearm_joint
+      - horizontal_arm_joint
+      - gripper_right_joint
+    
+    command_interfaces:
+      - position
+    
+    state_interfaces:
+      - position
+      - velocity
+    
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.6
+      baseplate_joint:
+        trajectory: 0.05
+        goal: 0.03
+      forward_drivearm_joint:
+        trajectory: 0.05
+        goal: 0.03
+      horizontal_arm_joint:
+        trajectory: 0.05
+        goal: 0.03
+      gripper_right_joint:
+        trajectory: 0.05
+        goal: 0.03

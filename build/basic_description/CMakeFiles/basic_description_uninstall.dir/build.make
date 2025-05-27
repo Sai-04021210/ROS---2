@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ram/Documents/ros2/src/basic_description
+CMAKE_SOURCE_DIR = /home/ram/Documents/ROS---2/src/basic_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ram/Documents/ros2/build/basic_description
+CMAKE_BINARY_DIR = /home/ram/Documents/ROS---2/build/basic_description
 
 # Utility rule file for basic_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/basic_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/basic_description_uninstall.dir/progress.make
 
 CMakeFiles/basic_description_uninstall:
-	/usr/bin/cmake -P /home/ram/Documents/ros2/build/basic_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ram/Documents/ROS---2/build/basic_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 basic_description_uninstall: CMakeFiles/basic_description_uninstall
 basic_description_uninstall: CMakeFiles/basic_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/basic_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/basic_description_uninstall.dir/clean
 
 CMakeFiles/basic_description_uninstall.dir/depend:
-	cd /home/ram/Documents/ros2/build/basic_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ram/Documents/ros2/src/basic_description /home/ram/Documents/ros2/src/basic_description /home/ram/Documents/ros2/build/basic_description /home/ram/Documents/ros2/build/basic_description /home/ram/Documents/ros2/build/basic_description/CMakeFiles/basic_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ram/Documents/ROS---2/build/basic_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ram/Documents/ROS---2/src/basic_description /home/ram/Documents/ROS---2/src/basic_description /home/ram/Documents/ROS---2/build/basic_description /home/ram/Documents/ROS---2/build/basic_description /home/ram/Documents/ROS---2/build/basic_description/CMakeFiles/basic_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/basic_description_uninstall.dir/depend
 

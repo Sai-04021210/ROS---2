@@ -1,0 +1,55 @@
+[0.026s] Invoking command in '/home/ram/Documents/ROS---2/build/basic_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake /home/ram/Documents/ROS---2/src/basic_description -DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ROS---2/install/basic_description
+[5.364s] -- The C compiler identification is GNU 11.4.0
+[6.254s] -- The CXX compiler identification is GNU 11.4.0
+[6.328s] -- Detecting C compiler ABI info
+[6.560s] -- Detecting C compiler ABI info - done
+[6.578s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.579s] -- Detecting C compile features
+[6.614s] -- Detecting C compile features - done
+[6.640s] -- Detecting CXX compiler ABI info
+[6.839s] -- Detecting CXX compiler ABI info - done
+[6.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.856s] -- Detecting CXX compile features
+[6.857s] -- Detecting CXX compile features - done
+[6.926s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.379s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.930s] -- Configuring done
+[7.935s] -- Generating done
+[7.938s] -- Build files have been written to: /home/ram/Documents/ROS---2/build/basic_description
+[7.945s] Invoked command in '/home/ram/Documents/ROS---2/build/basic_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake /home/ram/Documents/ROS---2/src/basic_description -DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ROS---2/install/basic_description
+[7.949s] Invoking command in '/home/ram/Documents/ROS---2/build/basic_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/basic_description -- -j4 -l4
+[8.010s] Invoked command in '/home/ram/Documents/ROS---2/build/basic_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/basic_description -- -j4 -l4
+[8.025s] Invoking command in '/home/ram/Documents/ROS---2/build/basic_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/basic_description
+[8.037s] -- Install configuration: ""
+[8.037s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/urdf
+[8.038s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/urdf/basic_urdf.xacro
+[8.038s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes
+[8.038s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/left_finger.STL
+[8.038s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/triangular_link.STL
+[8.040s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/basement.STL
+[8.042s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/claw_support.STL
+[8.044s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/forward_drive_arm.STL
+[8.048s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/round_plate.STL
+[8.048s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/base_plate.STL
+[8.052s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/plate.STL
+[8.056s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/vertical_drive_arm.STL
+[8.058s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/servo_plate.STL
+[8.058s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/right_finger.STL
+[8.058s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/horizontal_arm.STL
+[8.061s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/meshes/link.STL
+[8.063s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/ament_index/resource_index/package_run_dependencies/basic_description
+[8.063s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/ament_index/resource_index/parent_prefix_path/basic_description
+[8.063s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/environment/ament_prefix_path.sh
+[8.064s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/environment/ament_prefix_path.dsv
+[8.064s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/environment/path.sh
+[8.064s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/environment/path.dsv
+[8.064s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/local_setup.bash
+[8.065s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/local_setup.sh
+[8.065s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/local_setup.zsh
+[8.065s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/local_setup.dsv
+[8.066s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.dsv
+[8.066s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/ament_index/resource_index/packages/basic_description
+[8.067s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/cmake/basic_descriptionConfig.cmake
+[8.067s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/cmake/basic_descriptionConfig-version.cmake
+[8.067s] -- Installing: /home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.xml
+[8.071s] Invoked command in '/home/ram/Documents/ROS---2/build/basic_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/basic_description

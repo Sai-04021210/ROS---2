@@ -1,2 +1,0 @@
-Invoking command in '/home/ram/Documents/ros2/build/lego_description': /usr/bin/cmake /home/ram/Documents/ros2/src/lego_description -DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ros2/install/lego_description
-Invoked command in '/home/ram/Documents/ros2/build/lego_description' returned '1': /usr/bin/cmake /home/ram/Documents/ros2/src/lego_description -DCMAKE_INSTALL_PREFIX=/home/ram/Documents/ros2/install/lego_description

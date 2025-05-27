@@ -1,0 +1,21 @@
+[2.068s] Invoking command in '/home/ram/Documents/ROS---2/src/conveyor_manipulation': PYTHONPATH=/home/ram/Documents/ROS---2/build/conveyor_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conveyor_manipulation build --build-base /home/ram/Documents/ROS---2/build/conveyor_manipulation/build install --record /home/ram/Documents/ROS---2/build/conveyor_manipulation/install.log --single-version-externally-managed install_data
+[2.663s] running egg_info
+[2.664s] writing ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/PKG-INFO
+[2.665s] writing dependency_links to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/dependency_links.txt
+[2.665s] writing entry points to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/entry_points.txt
+[2.665s] writing requirements to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/requires.txt
+[2.666s] writing top-level names to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/top_level.txt
+[2.670s] reading manifest file '../../build/conveyor_manipulation/conveyor_manipulation.egg-info/SOURCES.txt'
+[2.671s] writing manifest file '../../build/conveyor_manipulation/conveyor_manipulation.egg-info/SOURCES.txt'
+[2.672s] running build
+[2.672s] running build_py
+[2.672s] running install
+[2.673s] running install_lib
+[2.675s] running install_data
+[2.675s] running install_egg_info
+[2.679s] removing '/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation-0.0.0-py3.10.egg-info' (and everything under it)
+[2.679s] Copying ../../build/conveyor_manipulation/conveyor_manipulation.egg-info to /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation-0.0.0-py3.10.egg-info
+[2.681s] running install_scripts
+[2.720s] Installing robot_controller script to /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/conveyor_manipulation
+[2.721s] writing list of installed files to '/home/ram/Documents/ROS---2/build/conveyor_manipulation/install.log'
+[2.763s] Invoked command in '/home/ram/Documents/ROS---2/src/conveyor_manipulation' returned '0': PYTHONPATH=/home/ram/Documents/ROS---2/build/conveyor_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conveyor_manipulation build --build-base /home/ram/Documents/ROS---2/build/conveyor_manipulation/build install --record /home/ram/Documents/ROS---2/build/conveyor_manipulation/install.log --single-version-externally-managed install_data

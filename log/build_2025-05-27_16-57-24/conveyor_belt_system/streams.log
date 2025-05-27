@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/conveyor_belt_system -- -j4 -l4
+[0.085s] Invoked command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/conveyor_belt_system -- -j4 -l4
+[0.104s] Invoking command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/conveyor_belt_system
+[0.115s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf
+[0.116s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/robot_with_conveyor.xacro
+[0.117s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/conveyor_belt.xacro
+[0.117s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch
+[0.118s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_only_test.launch.py
+[0.118s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_conveyor_demo.launch.py
+[0.118s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/simple_robot_test.launch.py
+[0.119s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz
+[0.119s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz/robot_conveyor.rviz
+[0.120s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/package_run_dependencies/conveyor_belt_system
+[0.120s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/parent_prefix_path/conveyor_belt_system
+[0.120s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.sh
+[0.120s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.sh
+[0.121s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.dsv
+[0.121s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.bash
+[0.121s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.sh
+[0.121s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.zsh
+[0.122s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.dsv
+[0.122s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.dsv
+[0.122s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/packages/conveyor_belt_system
+[0.122s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig.cmake
+[0.122s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig-version.cmake
+[0.123s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.xml
+[0.124s] Invoked command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/conveyor_belt_system

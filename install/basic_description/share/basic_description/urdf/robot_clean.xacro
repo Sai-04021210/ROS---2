@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="digital_twin_robot">
+   <xacro:property name="PI" value="3.1415926535897931"/>
+   <xacro:property name="effort" value="30.0"/>
+   <xacro:property name="velocity" value="1.0"/>
+
+    <link name="world"/>
+
+    <link name="base_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="-0.5 -0.5 0"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/basement.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="base_material">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="-0.5 -0.5 0"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/basement.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0.15" rpy="0 0 0"/>
+            <mass value="5.0"/>
+            <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+        </inertial>
+    </link>
+
+    <joint name="virtual_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+    </joint>
+
+    <link name="baseplate">
+        <visual>
+            <origin rpy="0 0 0" xyz="-0.39 -0.39 -0.56"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/base_plate.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="baseplate_material">
+                <color rgba="0.2 0.2 0.8 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="-0.39 -0.39 -0.56"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/base_plate.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="2.0"/>
+            <inertia ixx="0.05" ixy="0" ixz="0" iyy="0.05" iyz="0" izz="0.05"/>
+        </inertial>
+    </link>
+
+    <joint name="baseplate_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="baseplate"/>
+        <axis xyz="0 0 1"/>
+        <origin rpy="0 0 0" xyz="0 0 0.307"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="1.0"/>
+    </joint>
+
+    <link name="forward_drive_arm">
+        <visual>
+            <origin rpy="0 -1.57 1.57" xyz="0.19 0.06 -0.08"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="arm_material">
+                <color rgba="0.8 0.2 0.2 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 -1.57 1.57" xyz="0.19 0.06 -0.08"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0.4" rpy="0 0 0"/>
+            <mass value="1.5"/>
+            <inertia ixx="0.08" ixy="0" ixz="0" iyy="0.08" iyz="0" izz="0.02"/>
+        </inertial>
+    </link>
+
+    <joint name="forward_drivearm_joint" type="revolute">
+        <parent link="baseplate"/>
+        <child link="forward_drive_arm"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="-0.02 0 0.35"/>
+        <limit lower="-1.57" upper="1.57" effort="30.0" velocity="1.0"/>
+    </joint>
+
+    <link name="horizontal_arm">
+        <visual>
+            <origin rpy="1.57 0 1.57" xyz="-0.03 -0.4 -0.06"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="horizontal_material">
+                <color rgba="0.2 0.8 0.2 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="1.57 0 1.57" xyz="-0.03 -0.4 -0.06"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0.4 0" rpy="0 0 0"/>
+            <mass value="1.0"/>
+            <inertia ixx="0.05" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.05"/>
+        </inertial>
+    </link>
+
+    <joint name="horizontal_arm_joint" type="revolute">
+        <parent link="forward_drive_arm"/>
+        <child link="horizontal_arm"/>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0 0 0.8"/>
+        <limit lower="-0.785" upper="0.785" effort="30.0" velocity="1.0"/>
+    </joint>
+
+    <link name="claw_support">
+        <visual>
+            <origin rpy="0 0 1.57" xyz="0 -0.05 -0.15"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="support_material">
+                <color rgba="0.6 0.6 0.2 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 1.57" xyz="0 -0.05 -0.15"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="0.5"/>
+            <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+        </inertial>
+    </link>
+
+    <joint name="claw_support_joint" type="fixed">
+        <parent link="horizontal_arm"/>
+        <child link="claw_support"/>
+        <origin rpy="0 0 0" xyz="0 0.82 0"/>
+    </joint>
+
+    <link name="gripper_right">
+        <visual>
+            <origin xyz="-0.1 0.5 -0.1" rpy="0 0 -1.57"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="gripper_material">
+                <color rgba="0.8 0.8 0.8 1.0"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="-0.1 0.5 -0.1" rpy="0 0 -1.57"/>
+            <geometry>
+                <mesh filename="package://basic_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <joint name="gripper_right_joint" type="revolute">
+        <parent link="claw_support"/>
+        <child link="gripper_right"/>
+        <axis xyz="0 0 1"/>
+        <origin rpy="0 0 0" xyz="-0.04 0.13 -0.1"/>
+        <limit lower="-1.57" upper="0" effort="30.0" velocity="1.0"/>
+    </joint>
+
+</robot>

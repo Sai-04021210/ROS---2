@@ -1,0 +1,45 @@
+[5.467s] Invoking command in '/home/ram/Documents/ROS---2/src/basic_py_examples': PYTHONPATH=/home/ram/Documents/ROS---2/build/basic_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_py_examples build --build-base /home/ram/Documents/ROS---2/build/basic_py_examples/build install --record /home/ram/Documents/ROS---2/build/basic_py_examples/install.log --single-version-externally-managed install_data
+[5.938s] running egg_info
+[5.939s] creating ../../build/basic_py_examples/basic_py_examples.egg-info
+[5.940s] writing ../../build/basic_py_examples/basic_py_examples.egg-info/PKG-INFO
+[5.940s] writing dependency_links to ../../build/basic_py_examples/basic_py_examples.egg-info/dependency_links.txt
+[5.941s] writing entry points to ../../build/basic_py_examples/basic_py_examples.egg-info/entry_points.txt
+[5.941s] writing requirements to ../../build/basic_py_examples/basic_py_examples.egg-info/requires.txt
+[5.941s] writing top-level names to ../../build/basic_py_examples/basic_py_examples.egg-info/top_level.txt
+[5.942s] writing manifest file '../../build/basic_py_examples/basic_py_examples.egg-info/SOURCES.txt'
+[5.946s] reading manifest file '../../build/basic_py_examples/basic_py_examples.egg-info/SOURCES.txt'
+[5.947s] writing manifest file '../../build/basic_py_examples/basic_py_examples.egg-info/SOURCES.txt'
+[5.947s] running build
+[5.947s] running build_py
+[5.948s] creating /home/ram/Documents/ROS---2/build/basic_py_examples/build
+[5.948s] creating /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib
+[5.948s] creating /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples
+[5.948s] copying basic_py_examples/__init__.py -> /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples
+[5.949s] copying basic_py_examples/simple_subscriber.py -> /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples
+[5.949s] copying basic_py_examples/parameters.py -> /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples
+[5.949s] copying basic_py_examples/simple_publisher.py -> /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples
+[5.949s] running install
+[5.950s] running install_lib
+[5.951s] creating /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples
+[5.951s] copying /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples/__init__.py -> /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples
+[5.952s] copying /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples/simple_subscriber.py -> /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples
+[5.952s] copying /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples/parameters.py -> /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples
+[5.952s] copying /home/ram/Documents/ROS---2/build/basic_py_examples/build/lib/basic_py_examples/simple_publisher.py -> /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples
+[5.953s] byte-compiling /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples/__init__.py to __init__.cpython-310.pyc
+[5.953s] byte-compiling /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[5.954s] byte-compiling /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples/parameters.py to parameters.cpython-310.pyc
+[5.956s] byte-compiling /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[5.956s] running install_data
+[5.956s] creating /home/ram/Documents/ROS---2/install/basic_py_examples/share/ament_index
+[5.957s] creating /home/ram/Documents/ROS---2/install/basic_py_examples/share/ament_index/resource_index
+[5.957s] creating /home/ram/Documents/ROS---2/install/basic_py_examples/share/ament_index/resource_index/packages
+[5.957s] copying resource/basic_py_examples -> /home/ram/Documents/ROS---2/install/basic_py_examples/share/ament_index/resource_index/packages
+[5.957s] copying package.xml -> /home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples
+[5.957s] running install_egg_info
+[5.961s] Copying ../../build/basic_py_examples/basic_py_examples.egg-info to /home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages/basic_py_examples-0.0.0-py3.10.egg-info
+[5.962s] running install_scripts
+[6.007s] Installing parameters_demo script to /home/ram/Documents/ROS---2/install/basic_py_examples/lib/basic_py_examples
+[6.008s] Installing simple_publisher script to /home/ram/Documents/ROS---2/install/basic_py_examples/lib/basic_py_examples
+[6.009s] Installing simple_subscriber script to /home/ram/Documents/ROS---2/install/basic_py_examples/lib/basic_py_examples
+[6.009s] writing list of installed files to '/home/ram/Documents/ROS---2/build/basic_py_examples/install.log'
+[6.053s] Invoked command in '/home/ram/Documents/ROS---2/src/basic_py_examples' returned '0': PYTHONPATH=/home/ram/Documents/ROS---2/build/basic_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_py_examples build --build-base /home/ram/Documents/ROS---2/build/basic_py_examples/build install --record /home/ram/Documents/ROS---2/build/basic_py_examples/install.log --single-version-externally-managed install_data

@@ -3,7 +3,7 @@
 <package format="3">
   <name>basic_description</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>ROS 2 package containing URDF/XACRO description of a basic robotic arm with gripper</description>
   <maintainer email="inthedarkshades0008@gmail.com">ram</maintainer>
   <license>TODO: License declaration</license>
 

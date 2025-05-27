@@ -1,0 +1,57 @@
+[0.549s] Invoking command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/conveyor_belt_system -- -j4 -l4
+[0.591s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.848s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.902s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.907s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.921s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.967s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.034s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.501s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.546s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.608s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.622s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.910s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.965s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.967s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.191s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.193s] -- Added test 'lint_cmake' to check CMake code style
+[2.194s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.198s] -- Added test 'xmllint' to check XML markup files
+[2.202s] -- Configuring done
+[2.237s] -- Generating done
+[2.246s] -- Build files have been written to: /home/ram/Documents/ROS---2/build/conveyor_belt_system
+[2.312s] Invoked command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/conveyor_belt_system -- -j4 -l4
+[2.318s] Invoking command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/conveyor_belt_system
+[2.337s] -- Install configuration: ""
+[2.337s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf
+[2.339s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/robot_gazebo.xacro
+[2.339s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/robot_with_conveyor.xacro
+[2.340s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/conveyor_belt.xacro
+[2.340s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch
+[2.341s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/gazebo_simulation.launch.py
+[2.341s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_only_test.launch.py
+[2.341s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_conveyor_demo.launch.py
+[2.341s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/simple_robot_test.launch.py
+[2.342s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz
+[2.342s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz/robot_conveyor.rviz
+[2.342s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/config
+[2.342s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/config/robot_controllers.yaml
+[2.343s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/package_run_dependencies/conveyor_belt_system
+[2.343s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/parent_prefix_path/conveyor_belt_system
+[2.343s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.sh
+[2.344s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.dsv
+[2.344s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.sh
+[2.345s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.dsv
+[2.345s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.bash
+[2.346s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.sh
+[2.346s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.zsh
+[2.346s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.dsv
+[2.347s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.dsv
+[2.347s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/packages/conveyor_belt_system
+[2.347s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig.cmake
+[2.347s] -- Up-to-date: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig-version.cmake
+[2.348s] -- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.xml
+[2.352s] Invoked command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/conveyor_belt_system

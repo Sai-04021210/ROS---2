@@ -1,0 +1,317 @@
+[0.211s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x710a7ce51c00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x710a7ce51240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x710a7ce51240>>, mixin_verb=('build',))
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.658s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ram/Documents/ROS---2'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extension 'ignore_ament_install'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extensions ['colcon_pkg']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extension 'colcon_pkg'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extensions ['colcon_meta']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extension 'colcon_meta'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_description) by extension 'ros'
+[0.707s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basic_description' with type 'ros.ament_cmake' and name 'basic_description'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_py_examples) by extension 'ros'
+[0.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basic_py_examples' with type 'ros.ament_python' and name 'basic_py_examples'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_belt_system) by extension 'ros'
+[0.718s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conveyor_belt_system' with type 'ros.ament_cmake' and name 'conveyor_belt_system'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extension 'colcon_pkg'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extensions ['colcon_meta']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/conveyor_manipulation) by extension 'ros'
+[0.724s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conveyor_manipulation' with type 'ros.ament_python' and name 'conveyor_manipulation'
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.810s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ram/Documents/ROS---2/install/lego_manipulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.811s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ram/Documents/ROS---2/install/lego_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.814s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ram/Documents/ROS---2/install
+[0.819s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'cmake_target' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'basic_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.962s] DEBUG:colcon.colcon_core.verb:Building package 'basic_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Documents/ROS---2/build/basic_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Documents/ROS---2/install/basic_description', 'merge_install': False, 'path': '/home/ram/Documents/ROS---2/src/basic_description', 'symlink_install': False, 'test_result_base': None}
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'basic_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.964s] DEBUG:colcon.colcon_core.verb:Building package 'basic_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Documents/ROS---2/build/basic_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Documents/ROS---2/install/basic_py_examples', 'merge_install': False, 'path': '/home/ram/Documents/ROS---2/src/basic_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'cmake_target' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'cmake_clean_first' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'cmake_force_configure' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'ament_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'conveyor_belt_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.966s] DEBUG:colcon.colcon_core.verb:Building package 'conveyor_belt_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Documents/ROS---2/build/conveyor_belt_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Documents/ROS---2/install/conveyor_belt_system', 'merge_install': False, 'path': '/home/ram/Documents/ROS---2/src/conveyor_belt_system', 'symlink_install': False, 'test_result_base': None}
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'cmake_target' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'conveyor_manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.967s] DEBUG:colcon.colcon_core.verb:Building package 'conveyor_manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Documents/ROS---2/build/conveyor_manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Documents/ROS---2/install/conveyor_manipulation', 'merge_install': False, 'path': '/home/ram/Documents/ROS---2/src/conveyor_manipulation', 'symlink_install': False, 'test_result_base': None}
+[0.968s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.970s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram/Documents/ROS---2/src/basic_description' with build type 'ament_cmake'
+[0.970s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram/Documents/ROS---2/src/basic_description'
+[0.975s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.983s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram/Documents/ROS---2/src/basic_py_examples' with build type 'ament_python'
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_py_examples', 'ament_prefix_path')
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/hook/ament_prefix_path.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/hook/ament_prefix_path.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/hook/ament_prefix_path.sh'
+[0.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram/Documents/ROS---2/src/conveyor_belt_system' with build type 'ament_cmake'
+[0.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram/Documents/ROS---2/src/conveyor_belt_system'
+[0.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.003s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram/Documents/ROS---2/src/conveyor_manipulation' with build type 'ament_python'
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyor_manipulation', 'ament_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/hook/ament_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/hook/ament_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/hook/ament_prefix_path.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Documents/ROS---2/build/basic_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/basic_description -- -j4 -l4
+[1.528s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram/Documents/ROS---2/src/basic_py_examples'
+[1.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/conveyor_belt_system -- -j4 -l4
+[2.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram/Documents/ROS---2/src/conveyor_manipulation'
+[2.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Documents/ROS---2/build/basic_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/basic_description -- -j4 -l4
+[2.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Documents/ROS---2/build/basic_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/basic_description
+[2.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_description)
+[2.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Documents/ROS---2/build/basic_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/basic_description
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description' for CMake module files
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description' for CMake config files
+[2.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_description', 'cmake_prefix_path')
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/hook/cmake_prefix_path.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/hook/cmake_prefix_path.dsv'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/hook/cmake_prefix_path.sh'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/bin'
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/lib/pkgconfig/basic_description.pc'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/lib/python3.10/site-packages'
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/bin'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.ps1'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.sh'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.bash'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.zsh'
+[2.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Documents/ROS---2/install/basic_description/share/colcon-core/packages/basic_description)
+[2.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_description)
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description' for CMake module files
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description' for CMake config files
+[2.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_description', 'cmake_prefix_path')
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/hook/cmake_prefix_path.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/hook/cmake_prefix_path.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/hook/cmake_prefix_path.sh'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/bin'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/lib/pkgconfig/basic_description.pc'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/lib/python3.10/site-packages'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_description/bin'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.ps1'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.sh'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.bash'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_description/share/basic_description/package.zsh'
+[2.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Documents/ROS---2/install/basic_description/share/colcon-core/packages/basic_description)
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Documents/ROS---2/src/basic_py_examples': PYTHONPATH=/home/ram/Documents/ROS---2/build/basic_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_py_examples build --build-base /home/ram/Documents/ROS---2/build/basic_py_examples/build install --record /home/ram/Documents/ROS---2/build/basic_py_examples/install.log --single-version-externally-managed install_data
+[3.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Documents/ROS---2/src/conveyor_manipulation': PYTHONPATH=/home/ram/Documents/ROS---2/build/conveyor_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conveyor_manipulation build --build-base /home/ram/Documents/ROS---2/build/conveyor_manipulation/build install --record /home/ram/Documents/ROS---2/build/conveyor_manipulation/install.log --single-version-externally-managed install_data
+[3.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --build /home/ram/Documents/ROS---2/build/conveyor_belt_system -- -j4 -l4
+[3.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/conveyor_belt_system
+[3.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyor_belt_system)
+[3.345s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system' for CMake module files
+[3.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Documents/ROS---2/build/conveyor_belt_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ram/Documents/ROS---2/install/lego_manipulation:/home/ram/Documents/ROS---2/install/basic_py_examples /usr/bin/cmake --install /home/ram/Documents/ROS---2/build/conveyor_belt_system
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system' for CMake config files
+[3.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyor_belt_system', 'cmake_prefix_path')
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/hook/cmake_prefix_path.ps1'
+[3.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/hook/cmake_prefix_path.dsv'
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/hook/cmake_prefix_path.sh'
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/bin'
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/lib/pkgconfig/conveyor_belt_system.pc'
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/lib/python3.10/site-packages'
+[3.356s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/bin'
+[3.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.ps1'
+[3.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.dsv'
+[3.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.sh'
+[3.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.bash'
+[3.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.zsh'
+[3.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/colcon-core/packages/conveyor_belt_system)
+[3.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyor_belt_system)
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system' for CMake module files
+[3.367s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system' for CMake config files
+[3.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyor_belt_system', 'cmake_prefix_path')
+[3.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/hook/cmake_prefix_path.ps1'
+[3.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/hook/cmake_prefix_path.dsv'
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/hook/cmake_prefix_path.sh'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/bin'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/lib/pkgconfig/conveyor_belt_system.pc'
+[3.374s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/lib/python3.10/site-packages'
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_belt_system/bin'
+[3.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.ps1'
+[3.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.dsv'
+[3.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.sh'
+[3.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.bash'
+[3.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.zsh'
+[3.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Documents/ROS---2/install/conveyor_belt_system/share/colcon-core/packages/conveyor_belt_system)
+[3.618s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples' for CMake module files
+[3.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Documents/ROS---2/src/basic_py_examples' returned '0': PYTHONPATH=/home/ram/Documents/ROS---2/build/basic_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_py_examples build --build-base /home/ram/Documents/ROS---2/build/basic_py_examples/build install --record /home/ram/Documents/ROS---2/build/basic_py_examples/install.log --single-version-externally-managed install_data
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples' for CMake config files
+[3.622s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples/lib'
+[3.623s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples/bin'
+[3.623s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples/lib/pkgconfig/basic_py_examples.pc'
+[3.623s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples/lib/python3.10/site-packages'
+[3.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_py_examples', 'pythonpath')
+[3.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/hook/pythonpath.ps1'
+[3.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/hook/pythonpath.dsv'
+[3.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/hook/pythonpath.sh'
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/basic_py_examples/bin'
+[3.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_py_examples)
+[3.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/package.ps1'
+[3.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/package.dsv'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/package.sh'
+[3.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/package.bash'
+[3.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/basic_py_examples/share/basic_py_examples/package.zsh'
+[3.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Documents/ROS---2/install/basic_py_examples/share/colcon-core/packages/basic_py_examples)
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation' for CMake module files
+[3.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Documents/ROS---2/src/conveyor_manipulation' returned '0': PYTHONPATH=/home/ram/Documents/ROS---2/build/conveyor_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conveyor_manipulation build --build-base /home/ram/Documents/ROS---2/build/conveyor_manipulation/build install --record /home/ram/Documents/ROS---2/build/conveyor_manipulation/install.log --single-version-externally-managed install_data
+[3.766s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation' for CMake config files
+[3.767s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib'
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation/bin'
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/pkgconfig/conveyor_manipulation.pc'
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages'
+[3.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyor_manipulation', 'pythonpath')
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/hook/pythonpath.ps1'
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/hook/pythonpath.dsv'
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/hook/pythonpath.sh'
+[3.772s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Documents/ROS---2/install/conveyor_manipulation/bin'
+[3.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyor_manipulation)
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/package.ps1'
+[3.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/package.dsv'
+[3.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/package.sh'
+[3.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/package.bash'
+[3.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation/package.zsh'
+[3.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Documents/ROS---2/install/conveyor_manipulation/share/colcon-core/packages/conveyor_manipulation)
+[3.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.779s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.789s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.813s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Documents/ROS---2/install/local_setup.ps1'
+[3.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram/Documents/ROS---2/install/_local_setup_util_ps1.py'
+[3.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Documents/ROS---2/install/setup.ps1'
+[3.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Documents/ROS---2/install/local_setup.sh'
+[3.821s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram/Documents/ROS---2/install/_local_setup_util_sh.py'
+[3.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Documents/ROS---2/install/setup.sh'
+[3.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Documents/ROS---2/install/local_setup.bash'
+[3.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Documents/ROS---2/install/setup.bash'
+[3.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Documents/ROS---2/install/local_setup.zsh'
+[3.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Documents/ROS---2/install/setup.zsh'

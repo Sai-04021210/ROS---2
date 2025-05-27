@@ -1,4 +1,5 @@
 [console_scripts]
+parameters_demo = basic_py_examples.parameters:main
 simple_publisher = basic_py_examples.simple_publisher:main
 simple_subscriber = basic_py_examples.simple_subscriber:main
 

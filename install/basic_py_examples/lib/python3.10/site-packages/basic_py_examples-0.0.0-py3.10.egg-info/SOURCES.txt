@@ -9,6 +9,7 @@ setup.py
 ../../build/basic_py_examples/basic_py_examples.egg-info/top_level.txt
 ../../build/basic_py_examples/basic_py_examples.egg-info/zip-safe
 basic_py_examples/__init__.py
+basic_py_examples/parameters.py
 basic_py_examples/simple_publisher.py
 basic_py_examples/simple_subscriber.py
 resource/basic_py_examples

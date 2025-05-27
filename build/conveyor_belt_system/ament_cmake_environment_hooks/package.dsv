@@ -1,0 +1,4 @@
+source;share/conveyor_belt_system/local_setup.bash
+source;share/conveyor_belt_system/local_setup.dsv
+source;share/conveyor_belt_system/local_setup.sh
+source;share/conveyor_belt_system/local_setup.zsh

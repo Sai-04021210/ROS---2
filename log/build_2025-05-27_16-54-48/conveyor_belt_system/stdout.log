@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ram/Documents/ROS---2/build/conveyor_belt_system
+-- Install configuration: ""
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/robot_with_conveyor.xacro
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/urdf/conveyor_belt.xacro
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/launch/robot_conveyor_demo.launch.py
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/rviz/robot_conveyor.rviz
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/package_run_dependencies/conveyor_belt_system
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/parent_prefix_path/conveyor_belt_system
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.sh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/ament_prefix_path.dsv
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.sh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/environment/path.dsv
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.bash
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.sh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.zsh
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/local_setup.dsv
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.dsv
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/ament_index/resource_index/packages/conveyor_belt_system
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig.cmake
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/cmake/conveyor_belt_systemConfig-version.cmake
+-- Installing: /home/ram/Documents/ROS---2/install/conveyor_belt_system/share/conveyor_belt_system/package.xml

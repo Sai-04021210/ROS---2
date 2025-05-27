@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/conveyor_manipulation/conveyor_manipulation.egg-info
+writing ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/dependency_links.txt
+writing entry points to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/entry_points.txt
+writing requirements to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/requires.txt
+writing top-level names to ../../build/conveyor_manipulation/conveyor_manipulation.egg-info/top_level.txt
+writing manifest file '../../build/conveyor_manipulation/conveyor_manipulation.egg-info/SOURCES.txt'
+reading manifest file '../../build/conveyor_manipulation/conveyor_manipulation.egg-info/SOURCES.txt'
+writing manifest file '../../build/conveyor_manipulation/conveyor_manipulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ram/Documents/ROS---2/build/conveyor_manipulation/build
+creating /home/ram/Documents/ROS---2/build/conveyor_manipulation/build/lib
+creating /home/ram/Documents/ROS---2/build/conveyor_manipulation/build/lib/conveyor_manipulation
+copying conveyor_manipulation/__init__.py -> /home/ram/Documents/ROS---2/build/conveyor_manipulation/build/lib/conveyor_manipulation
+copying conveyor_manipulation/robot_controller.py -> /home/ram/Documents/ROS---2/build/conveyor_manipulation/build/lib/conveyor_manipulation
+running install
+running install_lib
+creating /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation
+copying /home/ram/Documents/ROS---2/build/conveyor_manipulation/build/lib/conveyor_manipulation/__init__.py -> /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation
+copying /home/ram/Documents/ROS---2/build/conveyor_manipulation/build/lib/conveyor_manipulation/robot_controller.py -> /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation
+byte-compiling /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation/robot_controller.py to robot_controller.cpython-310.pyc
+running install_data
+creating /home/ram/Documents/ROS---2/install/conveyor_manipulation/share/ament_index
+creating /home/ram/Documents/ROS---2/install/conveyor_manipulation/share/ament_index/resource_index
+creating /home/ram/Documents/ROS---2/install/conveyor_manipulation/share/ament_index/resource_index/packages
+copying resource/conveyor_manipulation -> /home/ram/Documents/ROS---2/install/conveyor_manipulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/ram/Documents/ROS---2/install/conveyor_manipulation/share/conveyor_manipulation
+running install_egg_info
+Copying ../../build/conveyor_manipulation/conveyor_manipulation.egg-info to /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/python3.10/site-packages/conveyor_manipulation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_controller script to /home/ram/Documents/ROS---2/install/conveyor_manipulation/lib/conveyor_manipulation
+writing list of installed files to '/home/ram/Documents/ROS---2/build/conveyor_manipulation/install.log'
