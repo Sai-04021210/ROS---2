@@ -1,1 +1,60 @@
-# MoveIt Configuration
+# MoveIt Configuration for Conveyor Belt Pick-and-Place Robot
+# Developer: Sai-04021210
+# Date: January 2025
+
+robot_description: "robot_description"
+robot_description_semantic: "robot_description_semantic"
+
+# Planning Groups
+planning_groups:
+  arm:
+    joints:
+      - baseplate_joint
+      - forward_drivearm_joint
+      - horizontal_arm_joint
+    end_effector: gripper
+
+  gripper:
+    joints:
+      - gripper_right_joint
+
+# Planning Parameters
+planning_parameters:
+  default_planner: RRTConnect
+  planning_time: 5.0
+  planning_attempts: 10
+  max_velocity_scaling_factor: 0.1
+  max_acceleration_scaling_factor: 0.1
+
+# Kinematics Solvers
+kinematics_solvers:
+  arm:
+    kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+    kinematics_solver_search_resolution: 0.005
+    kinematics_solver_timeout: 0.005
+
+# Motion Planning
+motion_planning:
+  planner_configs:
+    RRTConnect:
+      type: geometric::RRT
+      range: 0.0
+    RRTstar:
+      type: geometric::RRTstar
+      range: 0.0
+      goal_bias: 0.05
+
+# Trajectory Execution
+trajectory_execution:
+  allowed_execution_duration_scaling: 1.2
+  allowed_goal_duration_margin: 0.5
+  allowed_start_tolerance: 0.01
+
+# Planning Scene
+planning_scene:
+  robot_model_loader: robot_description
+  planning_scene_monitor:
+    publish_planning_scene: true
+    publish_geometry_updates: true
+    publish_state_updates: true
+    publish_transforms_updates: true
